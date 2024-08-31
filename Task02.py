@@ -25,5 +25,6 @@ team_1 = generate_team(20)
 team_2 = generate_team(20)
 
 winners = find_winners(team_1, team_2)
-
-print(winners)
+print('First team', team_1)
+print('Second team', team_2)
+print('Winners', winners)
