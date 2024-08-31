@@ -10,7 +10,7 @@
 
 
 def find_vowels(text:str) -> list:
-    vowels = 'уеыаоэяию'
+    vowels = 'уеёыаоэяию'
     return [letter for letter in text if letter in vowels]
 
 
